@@ -9,7 +9,7 @@ document.getElementById('yes').addEventListener("click", function(){
 })
 
 function moveButton(){
-    let x = Math.floor((Math.random() * 200) + 1);
+    let x = Math.floor((Math.random() * 100) + 1);
     let y = Math.floor((Math.random() * 200) + 1);
     x *= Math.round(Math.random()) ? 1 : -1;
     y *= Math.round(Math.random()) ? 1 : -1;
